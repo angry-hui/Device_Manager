@@ -366,7 +366,7 @@ class weibao(Ui_MainWindow,QMainWindow):
         wb = openpyxl.Workbook()
         ws = wb.active
         ws.title = '设备使用明细'
-        ws.append(['组别','职称','使用人员','品牌','型号','级别','CPU','内存','固态硬盘','机械硬盘','操作系统','设备状态'])
+        ws.append(['组别','岗位','使用人员','品牌','型号','级别','CPU','内存','固态硬盘','机械硬盘','操作系统','设备状态'])
         for n in result:
             ws.append([n[0],n[1],n[2],n[3],n[4],n[5],n[6],n[7],n[8],n[9],n[10],n[11]])
 
