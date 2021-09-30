@@ -12,9 +12,6 @@
   ('importlib.metadata',
    'd:\\programs files\\python\\python39-32\\lib\\importlib\\metadata.py',
    'PYMODULE'),
-  ('importlib.abc',
-   'd:\\programs files\\python\\python39-32\\lib\\importlib\\abc.py',
-   'PYMODULE'),
   ('contextlib',
    'd:\\programs files\\python\\python39-32\\lib\\contextlib.py',
    'PYMODULE'),
@@ -637,6 +634,9 @@
    'd:\\programs files\\python\\python39-32\\lib\\email\\errors.py',
    'PYMODULE'),
   ('csv', 'd:\\programs files\\python\\python39-32\\lib\\csv.py', 'PYMODULE'),
+  ('importlib.abc',
+   'd:\\programs files\\python\\python39-32\\lib\\importlib\\abc.py',
+   'PYMODULE'),
   ('importlib._bootstrap',
    'd:\\programs files\\python\\python39-32\\lib\\importlib\\_bootstrap.py',
    'PYMODULE'),
@@ -657,14 +657,14 @@
    'd:\\programs files\\python\\python39-32\\lib\\opcode.py',
    'PYMODULE'),
   ('ast', 'd:\\programs files\\python\\python39-32\\lib\\ast.py', 'PYMODULE'),
-  ('tracemalloc',
-   'd:\\programs files\\python\\python39-32\\lib\\tracemalloc.py',
+  ('_py_abc',
+   'd:\\programs files\\python\\python39-32\\lib\\_py_abc.py',
    'PYMODULE'),
   ('stringprep',
    'd:\\programs files\\python\\python39-32\\lib\\stringprep.py',
    'PYMODULE'),
-  ('_py_abc',
-   'd:\\programs files\\python\\python39-32\\lib\\_py_abc.py',
+  ('tracemalloc',
+   'd:\\programs files\\python\\python39-32\\lib\\tracemalloc.py',
    'PYMODULE'),
   ('openpyxl.chart.text',
    'd:\\programs '
@@ -1333,21 +1333,21 @@
   ('PIL.Image',
    'd:\\programs files\\python\\python39-32\\lib\\site-packages\\PIL\\Image.py',
    'PYMODULE'),
-  ('PIL.XVThumbImagePlugin',
+  ('PIL.EpsImagePlugin',
    'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\EpsImagePlugin.py',
    'PYMODULE'),
   ('PIL.ImageFile',
    'd:\\programs '
    'files\\python\\python39-32\\lib\\site-packages\\PIL\\ImageFile.py',
    'PYMODULE'),
-  ('PIL.SgiImagePlugin',
+  ('PIL.TgaImagePlugin',
    'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\TgaImagePlugin.py',
    'PYMODULE'),
-  ('PIL.PsdImagePlugin',
+  ('PIL.GribStubImagePlugin',
    'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\PsdImagePlugin.py',
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\GribStubImagePlugin.py',
    'PYMODULE'),
   ('PIL.PcdImagePlugin',
    'd:\\programs '
@@ -1361,17 +1361,133 @@
    'd:\\programs '
    'files\\python\\python39-32\\lib\\site-packages\\PIL\\XpmImagePlugin.py',
    'PYMODULE'),
+  ('PIL.FtexImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\FtexImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BlpImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\BlpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImtImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\ImtImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FliImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\FliImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcxImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\PcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MicImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\MicImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\ImImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PalmImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\PalmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpegImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\MpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WmfImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FpxImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\FpxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.McIdasImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\McIdasImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FitsStubImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\FitsStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WebPImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\WebPImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcoImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\IcoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PixarImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PsdImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\PsdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Hdf5StubImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XVThumbImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SunImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\SunImagePlugin.py',
+   'PYMODULE'),
   ('PIL.DcxImagePlugin',
    'd:\\programs '
    'files\\python\\python39-32\\lib\\site-packages\\PIL\\DcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.CurImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\CurImagePlugin.py',
    'PYMODULE'),
   ('PIL.IptcImagePlugin',
    'd:\\programs '
    'files\\python\\python39-32\\lib\\site-packages\\PIL\\IptcImagePlugin.py',
    'PYMODULE'),
-  ('PIL.PixarImagePlugin',
+  ('PIL.DdsImagePlugin',
    'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\DdsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcnsImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\IcnsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.features',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\features.py',
+   'PYMODULE'),
+  ('PIL.GbrImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\GbrImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SpiderImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\SpiderImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageTk',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\ImageTk.py',
+   'PYMODULE'),
+  ('PIL.SgiImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XbmImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\XbmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MspImagePlugin',
+   'd:\\programs '
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\MspImagePlugin.py',
    'PYMODULE'),
   ('PIL.PdfImagePlugin',
    'd:\\programs '
@@ -1385,129 +1501,13 @@
    'd:\\programs '
    'files\\python\\python39-32\\lib\\site-packages\\PIL\\ImageSequence.py',
    'PYMODULE'),
-  ('PIL.WebPImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\WebPImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.MpegImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\MpegImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.TgaImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\TgaImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.Jpeg2KImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.MicImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\MicImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.McIdasImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\McIdasImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.DdsImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\DdsImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.GbrImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\GbrImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.IcoImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\IcoImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.EpsImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\EpsImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.MspImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\MspImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.ImtImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\ImtImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.WmfImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\WmfImagePlugin.py',
-   'PYMODULE'),
   ('PIL.MpoImagePlugin',
    'd:\\programs '
    'files\\python\\python39-32\\lib\\site-packages\\PIL\\MpoImagePlugin.py',
    'PYMODULE'),
-  ('PIL.PcxImagePlugin',
+  ('PIL.Jpeg2KImagePlugin',
    'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\PcxImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.CurImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\CurImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.FpxImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\FpxImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.FitsStubImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\FitsStubImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.XbmImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\XbmImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.SunImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\SunImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.SpiderImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\SpiderImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.ImageTk',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\ImageTk.py',
-   'PYMODULE'),
-  ('PIL.FliImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\FliImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.ImImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\ImImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.Hdf5StubImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.BlpImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\BlpImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.PalmImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\PalmImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.IcnsImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\IcnsImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.features',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\features.py',
-   'PYMODULE'),
-  ('PIL.FtexImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\FtexImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.GribStubImagePlugin',
-   'd:\\programs '
-   'files\\python\\python39-32\\lib\\site-packages\\PIL\\GribStubImagePlugin.py',
+   'files\\python\\python39-32\\lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
    'PYMODULE'),
   ('PIL.TiffImagePlugin',
    'd:\\programs '
