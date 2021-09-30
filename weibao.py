@@ -579,6 +579,8 @@ class weibao(Ui_MainWindow,QMainWindow):
         ws.cell(row=8,column=2,value=result[9])
         ws.cell(row=8,column=6,value=result[10])
         ws.cell(row=8,column=8,value=result[11])
+        ##git测试语句
+        ##git测试语句2
 
         #变更信息
         #清除旧内容
